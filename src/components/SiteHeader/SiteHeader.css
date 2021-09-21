@@ -1,0 +1,7 @@
+@import "tachyons";
+
+.jumbotron {
+    padding: 2rem 1rem;
+    background-color: #524747;
+    text-align: left;
+}
