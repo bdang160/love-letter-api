@@ -18,10 +18,19 @@ const TryItOut = ({ onInputChange, onButtonSubmit }) => {
         <p className="help-text">Need some help? Try out these: Lorem ipsom dolor samet</p>
       </div>
 
-      <div className='response'>
+      <div className='response pa4'>
         <div className='form center pa4 br3 shadow-5'>
           <p className='f3 white'>Response:</p>
-          
+          <pre className='pre-scrollable'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br></br><br></br><br></br><br></br>
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br></br><br></br><br></br><br></br>
+            Ut enim ad minim veniam, quis nostrud exercitation <br></br><br></br><br></br><br></br>
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. <br></br><br></br><br></br><br></br><br></br>
+            Duis aute irure dolor in reprehenderit in voluptate <br></br><br></br><br></br><br></br><br></br>
+            velit esse cillum dolore eu fugiat nulla pariatur. <br></br><br></br><br></br><br></br>
+            Excepteur sint occaecat cupidatat non proident, <br></br><br></br><br></br><br></br>
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </pre>
         </div>
       </div>
     </div>
