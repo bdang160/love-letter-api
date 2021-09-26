@@ -1,0 +1,124 @@
+{
+	"overview": "In Love Letter, 2–6 suitors compete to have their missives delivered to the kingdom’s princess, who seeks an ideal partner and confidant for when she assumes the throne.",
+	"contents": [{
+			"items": "21 Character Cards"
+		},
+		{
+			"items": "6 Reference Cards"
+		},
+		{
+			"items": "13 Favor Tokens"
+		},
+		{
+			"items": "1 Cloth bag"
+		}
+	],
+	"setup": [{
+			"step1": "Give each player a reference card and return any remaining reference cards to the box.Reference cards list the values, effects, and quantity of each character card type."
+		},
+		{
+			"step2": "Shuffle the 21 character cards to create the deck. Place the deck facedown on the table within easy reach of all players."
+		},
+		{
+			"step3": "Take the top card of the deck and set it aside facedown without looking at it. If you are playing a two-player game, take three more cards and set those aside faceup."
+		},
+		{
+			"step4": "Deal each player one card from the deck as their starting hand."
+		},
+		{
+			"step5": "The player who most recently hand-wrote a letter takes the first turn."
+		}
+
+	],
+	"playingTheGame": {
+		"intro": "Love Letter is played over several game rounds in which you enlist the allies, friends, and family of the Princess to carry a letter of intent to her.\nThe card in your hand represents the person who currently carries your letter, but this  can change during the round as you draw and play cards. \nTo win a round, you must either have the highest-value card at the end of the round or be the only player left in the round.",
+		"playerTurn": "Take turns in clockwise order. On your turn, draw one card from the deck. Then, choose and play one of your two cards, resolving its effect. \nThe played card stays in your play area faceup, and you keep the other card in your hand.",
+		"outOfTheRound": "Some card effects knock you out of the current round; a competing suitor has ensured that your letter cannot be delivered. \nWhen this happens, discard your hand faceup in front of you (without resolving card effects). \nUntil the next round, you cannot be chosen for card effects, and your turn is skipped. Flip over your reference card to the broken seal side as a reminder.",
+		"playedAndDiscardedCards": "It is important that everyone know which cards have already been played and which cards are left in the deck, so any played or discarded cards must always be visible to everyone.",
+		"endOfARound": "The round ends in one of two ways: when the deck runs out or when only one player is left in the round.",
+		"deckRunsOut": "After any turn, if the deck is empty, all players still in the round reveal and compare the cards in their hands. \nIf you have the highest-value card, you win the round and gain one  favor token; your letter was successfully delivered to the Princess. \nIf there is a tie, all tied players win the round and each gains one token.",
+		"onePlayerLeft": "If you are the only player still in the round (all other players are out of the round due to card effects), the round immediately ends; you win and gain one favor token.",
+		"startingTheNextRound": "To start a new round, repeat steps 2–4 of setup (shuffle the character cards, set some aside, and deal each player one card). The player who won the previous round takes the first turn.\n If there was a tie in the previous round, randomly decide among the tied players who takes the first turn.",
+		"winningTheGame": {
+			"description": "The game ends when one player has enough favor tokens to win(based on the number of players— see table below).Multiple players can simultaneously win the game.",
+			"table": {
+				"playerCount": ["2", "3", "4", "5", "6"],
+				"numFavorTokens": ["6", "5", "4", "3", "3"]
+			}
+		}
+	},
+	"cardEffects": {
+		"intro": "Each card features a key person in the Princess’s life. A set of dots on the left side of each card shows how many of that card are in the deck (with yellow indicating what to remove for the classic version, see page 14). \nThe text on each card is a brief summary of the card’s effect. The following section, pages 8–13, provides the complete rules for each character.",
+		"cards": [{
+				"name": "Princess",
+				"value": "9",
+				"frequency": "1",
+				"longDescription": "If you either play or discard the Princess for any reason, you are immediately out of the round.",
+				"cardDescription": "If you discard this card you are out of the round."
+			},
+			{
+				"name": "Countess",
+				"value": "8",
+				"frequency": "1",
+				"longDescription": "You must play the Countess as the card for your turn if either the King or a Prince is the other card in your hand.You can still choose to play the Countess as the card for your turn even if you do not have the King or a Prince.When you play the Countess, do not reveal your other card; the other players will not know if you were forced to play it or chose to play it.The Countess’s effect does not apply when you draw cards for other effects (Chancellor).",
+				"cardDescription": "If you have this card and the King or Prince in your hand, you must discard this card."
+			},
+			{
+				"name": "King",
+				"value": "7",
+				"frequency": "1",
+				"longDescription": "Choose another player and trade hands with that player.",
+				"cardDescription": "Trade hands with another player of your choice."
+			},
+			{
+				"name": "Chancellor",
+				"value": "6",
+				"frequency": "2",
+				"longDescription": "Draw two cards from the deck into your hand. Choose and keep one of the three cards now in your hand, and place the other two facedown on the bottom of the deck in any order. If there is only one card in the deck, draw it and return one card. If there are no cards left, this card is played with no effect.",
+				"cardDescription": "N/A"
+			},
+			{
+				"name": "Prince",
+				"value": "5",
+				"frequency": "2",
+				"longDescription": "Choose any player (including yourself). That player discards their hand (without resolving its effect) and draws a new hand.If the deck is empty, the chosen player draws the facedown set-aside card.If a player chooses you for the Prince effect, and you are forced to discard the Princess, you are out of the round. Draw 2 cards. Keep 1 card and",
+				"cardDescription": "Choose any player (including yourself) to discard his or her hand and draw a new card."
+			},
+			{
+				"name": "Handmaid",
+				"value": "4",
+				"frequency": "2",
+				"longDescription": "Until the start of your next turn, other players cannot choose you for their card effects.In the rare case that all other players still in the round are “protected” by a Handmaid when you play a card, do the following: \n*If that card requires you to choose another player (Guard, Priest, Baron, King), your card is played with no effect. \n*If that card requires you to choose any player (Prince), then you must choose yourself for the effect. Until your next turn, other players cannot choose you for their card effects.",
+				"cardDescription": "Until your next turn, ignore all effects from other players' cards."
+			},
+			{
+				"name": "Baron",
+				"value": "3",
+				"frequency": "2",
+				"longDescription": "Choose another player. You and that player secretly compare your hands. Whoever has the lower-value card is out of the round.If there is a tie, neither player is out of the round.",
+				"cardDescription": "You an another player secretly compare hands. The player with the lower value is out of the round."
+			},
+			{
+				"name": "Priest",
+				"value": "2",
+				"frequency": "2",
+				"longDescription": "Choose another player and secretly look at their hand (without revealing it to anyone else).",
+				"cardDescription": "Look at another player's hand."
+			},
+			{
+				"name": "Guard",
+				"value": "1",
+				"frequency": "6",
+				"longDescription": "Choose another player and name a character other than Guard. If the chosen player has that card in their hand, they are out of the round.",
+				"cardDescription": "Name a non-Guard card and choose another player. If that player has that card, he or she is out of the round."
+			},
+			{
+				"name": "Spy",
+				"value": "0",
+				"frequency": "2",
+				"longDescription": "A Spy has no effect when played or discarded.At the end of the round, if you are the only player still in the round who played or discarded a Spy, you gain one favor token.This does not count as winning the round; the winner (even if it is you) still gains their token. Even if you play and/or discard two Spies, you still gain only one token.",
+				"cardDescription": "N/A"
+			}
+		]
+	}
+}
