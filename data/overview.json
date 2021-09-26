@@ -13,23 +13,25 @@
 			"items": "1 Cloth bag"
 		}
 	],
-	"setup": [{
-			"step1": "Give each player a reference card and return any remaining reference cards to the box.Reference cards list the values, effects, and quantity of each character card type."
-		},
-		{
-			"step2": "Shuffle the 21 character cards to create the deck. Place the deck facedown on the table within easy reach of all players."
-		},
-		{
-			"step3": "Take the top card of the deck and set it aside facedown without looking at it. If you are playing a two-player game, take three more cards and set those aside faceup."
-		},
-		{
-			"step4": "Deal each player one card from the deck as their starting hand."
-		},
-		{
-			"step5": "The player who most recently hand-wrote a letter takes the first turn."
-		}
-
-	],
+	"setup": {
+		"steps": [{
+				"step1": "Give each player a reference card and return any remaining reference cards to the box.Reference cards list the values, effects, and quantity of each character card type."
+			},
+			{
+				"step2": "Shuffle the 21 character cards to create the deck. Place the deck facedown on the table within easy reach of all players."
+			},
+			{
+				"step3": "Take the top card of the deck and set it aside facedown without looking at it. If you are playing a two-player game, take three more cards and set those aside faceup."
+			},
+			{
+				"step4": "Deal each player one card from the deck as their starting hand."
+			},
+			{
+				"step5": "The player who most recently hand-wrote a letter takes the first turn."
+			}
+		],
+		"classicVersion": "Included in this edition of Love Letter are the rules to play the classic version of the game, though it supports only 2–4 players.To play the classic version, before setup, return these cards to the bag: \n* 1 Guard \n* 2 Chancellors \n*2 SpiesAll other rules for the game are unchanged."
+	},
 	"playingTheGame": {
 		"intro": "Love Letter is played over several game rounds in which you enlist the allies, friends, and family of the Princess to carry a letter of intent to her.\nThe card in your hand represents the person who currently carries your letter, but this  can change during the round as you draw and play cards. \nTo win a round, you must either have the highest-value card at the end of the round or be the only player left in the round.",
 		"playerTurn": "Take turns in clockwise order. On your turn, draw one card from the deck. Then, choose and play one of your two cards, resolving its effect. \nThe played card stays in your play area faceup, and you keep the other card in your hand.",
@@ -45,7 +47,8 @@
 				"playerCount": ["2", "3", "4", "5", "6"],
 				"numFavorTokens": ["6", "5", "4", "3", "3"]
 			}
-		}
+		},
+		"ruleMistakes": "Accidental or not, there are many ways in which a player could make a rule mistake, such as dishonesty when chosen for a Guard effect or by not playing the Countess when required.Players should make sure they understand game rules and always double-check their cards; mistakes like these can strongly disrupt the play experience."
 	},
 	"cardEffects": {
 		"intro": "Each card features a key person in the Princess’s life. A set of dots on the left side of each card shows how many of that card are in the deck (with yellow indicating what to remove for the classic version, see page 14). \nThe text on each card is a brief summary of the card’s effect. The following section, pages 8–13, provides the complete rules for each character.",
