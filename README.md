@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### (bdang) Install Notes
+1. Install node js
+2. Install git bash
+3. Install postman
+4. Install text editor like Visual studio code
+5. Clone the git project
+6. Run `npm install` in the project directory
+
 ## Available Scripts
 
 In the project directory, you can run:
