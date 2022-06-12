@@ -9,6 +9,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4. Install text editor like Visual studio code
 5. Clone the git project
 6. Run `npm install` in the project directory
+7. Run `npm install express` to install Express.js for your server
+8. npm install --global nodemon
+9. npm i cors (tried this but didn't work: npm install --global cors)
+10. In separate Git Bash Terminals, run `npm start` for the front-end in one, and `npm run server` in the other
 
 ## Available Scripts
 

@@ -26,3 +26,15 @@
     overflow-y:scroll;
     background-color: white;
 }
+
+.input-group-addon {
+    padding: 8px 12px;
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: 1;
+    color: #272b30;
+    text-align: center;
+    background-color: #999999;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
