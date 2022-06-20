@@ -41,7 +41,7 @@ const TryItOut = ({ onInputChange, onButtonSubmit }) => {
   }
 
   return (
-    <div>
+    <div>x
       <p className='f3'>
         {'Give it a try!'}
       </p>
