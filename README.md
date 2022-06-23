@@ -75,7 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This app has been deployed on Heroku to https://love-letter-api.herokuapp.com/
 
 ### `npm run build` fails to minify
 
