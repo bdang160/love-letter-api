@@ -6,13 +6,6 @@ import {useEffect} from 'react';
 
 function App() {
 
-  useEffect(() => {
-    // send HTTP request
-    fetch("http://localhost:3001/") // TODO (bdang) Need to change 3001 to something else
-    .then(response => response.json())
-    .then(console.log)
-  }, [])
-
   return (
     <div className="App">
       <Navbar />

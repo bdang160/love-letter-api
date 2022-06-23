@@ -16,6 +16,12 @@ const TryItOut = ({ onInputChange, onButtonSubmit }) => {
     .then(data => {
       setApiResponse(data)
     })
+    .catch(
+      (error) => {
+        console.log(error) // TODO (bdang) Better error handling
+        setApiResponse({"error" : "Error fetching from backend API"})
+      }
+    )
   }, [])
   
   onInputChange = (event) => {
@@ -41,7 +47,7 @@ const TryItOut = ({ onInputChange, onButtonSubmit }) => {
   }
 
   return (
-    <div>x
+    <div>
       <p className='f3'>
         {'Give it a try!'}
       </p>
