@@ -4,7 +4,7 @@ import './DocumentationBody.css';
 const DocumentationBody = () => {
 
     // TODO (bdang) Change the base url here
-    const baseUrl = 'http://localhost:3001/';
+    const baseUrl = 'https://love-letter-api-backend.herokuapp.com/';
 
     return (<div className="documentationBody">
         <h1>Documentation</h1>

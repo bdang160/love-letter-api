@@ -4,7 +4,7 @@ import {useEffect, useState} from 'react';
 
 const TryItOut = ({ onInputChange, onButtonSubmit }) => {
 
-  const prependLink = 'http://localhost:3001/'
+  const prependLink = 'https://love-letter-api-backend.herokuapp.com/'
 
   const [apiInput, setApiInput] = useState("all");
   const [apiResponse, setApiResponse] = useState({});
@@ -54,7 +54,7 @@ const TryItOut = ({ onInputChange, onButtonSubmit }) => {
       <div className='center'>
         <div className='form center pa4 br3 shadow-5'>
           {/* TODO (bdang) Change this localhost */}
-          <span className="input-group-addon">http://localhost:3001/</span> 
+          <span className="input-group-addon">{prependLink}</span> 
           <input className='f4 pa2 w-70 center' type='tex' value={apiInput} onChange={onInputChange}/>
           <button
             className='w-30 grow f4 link ph3 pv2 dib white bg-light-purple'
