@@ -1,3 +1,6 @@
+
+<img width="1334" height="979" alt="love_letter" src="https://github.com/user-attachments/assets/45cb9042-51b7-4e22-ae6a-528f8c9814d2" />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
