@@ -1,6 +1,11 @@
 
 <img width="1334" height="979" alt="love_letter" src="https://github.com/user-attachments/assets/45cb9042-51b7-4e22-ae6a-528f8c9814d2" />
 
+# Description
+
+Created a RESTful api that can get and display data about the boardgame called Love Letter. | React, Node
+JS, Heroku, HTML & CSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
